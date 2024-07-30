@@ -11,9 +11,9 @@ from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 NAME = "SAM 2"
 VERSION = "1.0"
 DESCRIPTION = "SAM 2: Segment Anything in Images and Videos"
-URL = "https://github.com/facebookresearch/segment-anything-2"
-AUTHOR = "Meta AI"
-AUTHOR_EMAIL = "segment-anything@meta.com"
+URL = "https://github.com/roboflow/rf-segment-anything-2"
+AUTHOR = "A Roboflow distribution fo Meta AI's repository"
+AUTHOR_EMAIL = "support@roboflow.com"
 LICENSE = "Apache 2.0"
 
 # Read the contents of README file
@@ -54,7 +54,7 @@ def get_extensions():
 
 # Setup configuration
 setup(
-    name=NAME,
+    name="rf-segment-anything-2",
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
